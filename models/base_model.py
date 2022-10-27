@@ -20,7 +20,6 @@ class BaseModel:
     def save(self):
         """Updates updated_at with current time"""
         self.updated_at = datetime.now()
-        return
 
     def to_dict(self):
         """Return a dictionary containing all keys/values of the instance"""
